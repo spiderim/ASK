@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Signup">
+
+    <EditText
+        android:id="@+id/setname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="0dp"
+
+        android:layout_marginRight="20dp"
+        android:background="@drawable/design"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="enter name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/sbtsignup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/bu_design"
+        android:onClick="sbtclick"
+        android:text="Signup" />
+
+    <TextView
+        android:id="@+id/stvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="66dp"
+        android:text="Name"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/setemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="0dp"
+
+        android:layout_marginRight="20dp"
+        android:background="@drawable/design"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="enter email id"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+
+    <TextView
+        android:id="@+id/stvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="167dp"
+        android:text="email"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/stvpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="272dp"
+        android:text="password"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/stvphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="387dp"
+        android:text="phone number"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/setpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="0dp"
+
+        android:layout_marginRight="20dp"
+        android:background="@drawable/design"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="enter password"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/setphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_centerInParent="true"
+
+        android:layout_marginLeft="0dp"
+
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="-0dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/design"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="enter phone number"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/stvsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="-4dp"
+        android:text="Signup"
+        android:textColor="@color/yellow"
+        android:textSize="40dp" />
+
+    <ProgressBar
+        android:id="@+id/spbprogress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
